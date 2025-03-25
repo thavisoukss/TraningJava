@@ -61,6 +61,30 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.28</version>  <!-- Ensure you use version 8 or higher -->
 		</dependency>
+
+		<!-- Spring Boot DevTools (ช่วยรีโหลดอัตโนมัติ) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+
+		<!-- Apache Commons IO (ช่วยจัดการไฟล์) -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+
+		<!-- Thumbnailator (ใช้สำหรับ Resize รูปภาพ) -->
+		<dependency>
+			<groupId>net.coobird</groupId>
+			<artifactId>thumbnailator</artifactId>
+			<version>0.4.8</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
